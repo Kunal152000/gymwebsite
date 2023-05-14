@@ -10,11 +10,11 @@
 
     /* Bundler mode */
     "moduleResolution": "node",
-    // "allowImportingTsExtensions": true,
+    "noEmit": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
     "jsx": "react-jsx",
+    // "allowImportingTsExtensions": true,
 
     /* Linting */
     "strict": true,
